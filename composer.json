@@ -1,0 +1,23 @@
+{
+  "name": "ruivers/3des-laravel",
+  "description": "Laravel 3Des",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/ruivers/3des-laravel",
+  "authors": [
+    {
+      "name": "Ruiven",
+      "email": "ruiweilai@163.com",
+      "blog":"http://tolaravel.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mcrypt3des\\": "src/"
+    }
+  }
+}
